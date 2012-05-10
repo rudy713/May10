@@ -1,0 +1,28 @@
+#text {
+    z-index: 100; 
+    position: absolute;
+}
+
+#backdrop img {
+  z-index: -1; 
+  position: absolute; 
+  top:-10px; 
+  left: 0;
+}
+
+#menu ul {
+  z-index: 101; 
+  position: absolute; 
+  left: -40px; 
+  top: 350px;
+}
+
+#menu li {
+  float: left; 
+  list-style:none;
+}
+
+#menu li img {
+  width: 62px;
+  border: 1px #000 solid; 
+}
